@@ -1,0 +1,177 @@
+.nav-link:hover{
+  border-bottom: 2px solid yellow;
+  padding: 5px;
+}
+nav{
+  border-bottom: 3px solid yellow;
+}
+.nav-link{
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.myColor {
+  color: yellow;
+}
+
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+
+}
+
+/* bounce text  */
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(10px);
+  }
+}
+
+.Faisal {
+  animation-delay: 1s;
+}
+
+.faisal {
+  animation: moveDown 2s;
+}
+
+
+.line span {
+  width: 20px;
+  height: 20px;
+  border: 3px solid yellow;
+  position: absolute;
+  top: -10px;
+  left: 44%;
+  border-radius: 50%;
+  background: black;
+}
+
+.line {
+  width: 150px;
+  margin: auto;
+  height: 3px;
+  background: yellow;
+  position: relative;
+}
+
+.btn {
+  height: auto;
+  width: 180px;
+  background-image: linear-gradient(to right, #90bc0d,#eded56);
+  color: black;
+  border: 2px solid white;
+  border-radius: 50px;
+}
+
+.btn:hover {
+  color: white;
+  border: 2px solid yellow;
+  background-image: linear-gradient(to right, #c0dc6e,#575732);
+}
+
+
+i {
+  font-size: 25px;
+  color: yellow;
+
+}
+.card{
+  border-radius: 10px;
+}
+.card:hover {
+  border: 2px solid yellow;
+}
+
+.parallax {
+  background-image: url('./images/background_three.jpg');
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+
+
+}
+
+
+ul.myUnordered:hover {
+  background-color: grey;
+  color: black;
+
+}
+
+/* styling for form  */
+.myForm {
+  background-color: rgb(33, 37, 41);
+  border-bottom: 2px solid yellow;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  color: white;
+}
+
+.myForm:focus {
+  border-bottom: 2px solid yellow;
+  background-color: rgb(33, 37, 41);
+ 
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: white;
+}
+input[type="number"]::placeholder {
+  color: white; /* Change to desired color */
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: rgb(33, 37, 41);
+  color: white;
+}
+
+.fa {
+  font-size: 50px;
+}
+
+
+.progress-bar{
+  background-image: linear-gradient(to right, #90bc0d,#eded56);
+}
+
+
+
+.contact-info {
+  text-align: left;
+  max-width: 600px;
+  margin: auto;
+}
+
+
+.demo{
+  text-align: justify;
+}
